@@ -9,20 +9,20 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body>
-  <div class="aaa">
-    <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
-    <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?пше</a>
+  <div class="introduction">
+    <img class="introduction-img" src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
+    <a class="introduction-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
-  <div class="centered-main-page-element">
-    <p id="topSectionForAddingElementToList">
+  <div class="todo-app">
+    <div id="add-item">
       <label for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
+      <div class="row-wrapper">
         <input id="new-task"class="task" type="text">
         <button>Add</button>
       </div>
-    </p>
+    </div>
     <h3>Todo</h3>
-    <ul id="incompleteTasks">
+    <ul id="todo-task">
       <li>
         <input type="checkbox">
         <label class="task">Pay Bills</label>
@@ -30,7 +30,7 @@
         <button class="edit">Edit</button>
         <button class="delete"><img src="./remove.svg" alt="remove-image"></button>
       </li>
-      <li class="editMode">
+      <li class="edit-mode">
         <input type="checkbox">
         <label class="task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task">
