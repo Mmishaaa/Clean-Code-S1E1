@@ -129,7 +129,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks p {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
