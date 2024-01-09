@@ -8,6 +8,8 @@
 
 // Event handling, user interaction is what starts the code execution.
 
+alert("Я добавил не ту ссылку сюда, можешь, пожалуйста, посмотреть вот здесь: ссылка на Pull Request https://github.com/Mmishaaa/CleanCode-s1e1/pull/1");
+
 const taskInput = document.getElementById("new-task");//Add a new task.
 const addButton = document.getElementsByTagName("button")[0];//first button
 const incompleteTaskHolder = document.getElementById("todo-task");//ul of #incompleteTasks
